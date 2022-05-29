@@ -1,0 +1,89 @@
+#title-block-header {
+  display: none;
+}
+
+#wrapper {
+  margin-top: 0.6cm;
+  margin-bottom: 2cm;
+  margin-left: 2.4cm !important;
+  margin-right: 2.5cm;
+}
+
+body {
+  font-family: "PT Sans";
+  font-size: 10pt;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+h1 {
+  font-family: "PT Serif Caption";
+  font-size: 10pt;
+  font-weight: normal;
+  margin-bottom: 10pt;
+}
+
+h2 {
+  font-family: "PT Serif Caption";
+  font-size: 18pt;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 18pt;
+}
+
+h3 {
+  text-align: center;
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+h4 {
+  text-align: right;
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: "PT Serif Caption";
+  font-size: 18pt;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 12pt;
+}
+
+h6 {
+  font-family: "PT Sans";
+  font-size: 8pt;
+  font-weight: normal;
+  margin-top: 4pt;
+  margin-bottom: 0;
+}
+
+strong {
+  font-family: "PT Sans";
+}
+
+em {
+  font-family: "PT Sans";
+}
+
+code {
+  font-family: "Liberation Mono";
+  background-color: #e7e7e7;
+  border-radius: 2pt;
+  color: #4f4f4f;
+  margin-left: 1pt;
+  margin-right: 1pt;
+  padding: 2pt 3pt 0pt 3pt;
+}
+
+ul,
+ol {
+  padding-left: 20pt;
+}
+
+blockquote {
+  margin-left: 20pt;
+  font-family: "PT Sans";
+  font-weight: italic;
+}

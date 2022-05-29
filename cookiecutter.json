@@ -1,0 +1,10 @@
+{
+  "date": "{{% now 'local', '%Y-%m-%d' %}}",
+  "title": "",
+  "author_full_name": "",
+  "author_letterhead_email_address": "",
+  "author_letterhead_postal_address": "",
+  "author_letterhead_phone_number": "",
+  "recipient_full_name": "",
+  "recipient_postal_address": ""
+}

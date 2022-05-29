@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -eu
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+exec find . -maxdepth 1 -type f -name '*.md' -exec bash -c '
+  set -e
+  basename="$(basename -s .md "$1")"
+  set -x
+  exec pandoc -s -M "title=${basename}" -o "${basename}.html" "$1"
+  ' _ '{}' ';'
