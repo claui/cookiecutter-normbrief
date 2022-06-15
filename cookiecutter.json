@@ -1,10 +1,14 @@
 {
-  "date": "{{% now 'local', '%Y-%m-%d' %}}",
+  "date": "{% now 'local', '%Y-%m-%d' %}",
   "title": "",
   "author_full_name": "",
-  "author_letterhead_email_address": "",
-  "author_letterhead_postal_address": "",
-  "author_letterhead_phone_number": "",
+  "author_email_address": "",
+  "author_postal_address_line_1": "",
+  "author_postal_address_line_2": "",
+  "author_postal_address_line_3": "",
+  "author_phone_number": "",
   "recipient_full_name": "",
-  "recipient_postal_address": ""
+  "recipient_postal_address_line_1": "",
+  "recipient_postal_address_line_2": "",
+  "recipient_postal_address_line_3": ""
 }
