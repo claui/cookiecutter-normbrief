@@ -4,7 +4,8 @@ set -eu
 
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
-exec find . -maxdepth 1 -type f -name '*.md' -exec bash -c '
+exec find "${PROJECT_ROOT}" -maxdepth 1 -type f -name '*.md' \
+  -exec bash -c '
   set -e
   basename="$(basename -s .md "$1")"
   set -x
