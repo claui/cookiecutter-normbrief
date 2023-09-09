@@ -1,4 +1,4 @@
-# pylint: disable=pointless-string-statement
+# pylint: disable=docstring-first-line-empty,pointless-string-statement
 
 """
 # After abandoning support for Cookiecutter 1.x, maybe write
