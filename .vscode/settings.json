@@ -5,8 +5,13 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
   "files.exclude": {
     "**/.git": true
   },
-  "python.linting.pylintEnabled": true
+  "pylint.args": [
+    "--enable-all-extensions"
+  ]
 }
